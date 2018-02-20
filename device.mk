@@ -63,6 +63,10 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.redmi_curtana
+    
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service-sdm
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

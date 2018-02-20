@@ -27,7 +27,7 @@ product/lib64/libdpmtcm.so
 
 # IMS
 -product/priv-app/ims/ims.apk|600c6d03c03f88f35c51ba8e6b1a4cb7d70b94e6
-lib64/libdiag_system.so
+product/lib64/libdiag_system.so
 product/lib64/libimscamera_jni.so
 product/lib64/libimsmedia_jni.so
 product/lib64/lib-imsvideocodec.so
@@ -43,6 +43,9 @@ bin/charger
 # Soundfx - from LA.UM.8.9.r1-08300-SM6xx.0
 vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:|672ad577dab5221bdd7f840d87313e3483aebde0
 vendor/lib64/soundfx/libvolumelistener.so:product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so|c25cc5e8c3622eb97d3bb4814aeb301c01d8b046
+
+# SDM
+product/lib64/libsdm-disp-apis.qti.so
 
 # Telephony
 etc/permissions/privapp-permissions-qti.xml
