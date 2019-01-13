@@ -101,3 +101,6 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Trust
+PRODUCT_PACKAGES += \
+    lineage.trust@1.0-service
