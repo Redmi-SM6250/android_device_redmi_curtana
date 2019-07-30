@@ -1,5 +1,5 @@
 service vendor.charger /system/bin/chargeonlymode
     class charger
     user system
-    group system graphics
+    group system graphics input
     seclabel u:r:charger:s0
