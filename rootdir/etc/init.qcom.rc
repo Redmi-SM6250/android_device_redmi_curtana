@@ -1,0 +1,5 @@
+service vendor.charger /system/bin/chargeonlymode
+    class charger
+    user system
+    group system graphics
+    seclabel u:r:charger:s0
