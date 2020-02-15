@@ -15,6 +15,4 @@ PRODUCT_DEVICE := curtana
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.7.0.QJWMIXM:user/release-keys
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
