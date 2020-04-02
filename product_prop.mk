@@ -27,7 +27,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
-    vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,org.codeaurora.snapcam
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap \
+    persist.camera.privapp.list=org.codeaurora.snapcam \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
