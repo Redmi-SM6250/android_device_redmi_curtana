@@ -63,6 +63,8 @@ ifeq ($(HOST_OS),linux)
 endif
 
 # Display
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
+TARGET_HAS_HDR_DISPLAY := true
 TARGET_USES_HWC2 := true
 
 # DRM
