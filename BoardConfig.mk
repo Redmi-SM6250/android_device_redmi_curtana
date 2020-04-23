@@ -101,6 +101,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := vendor/curtana-perf_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
+  TARGET_KERNEL_CLANG_VERSION := 11.0
+  KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-11.0/bin
+  TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
   TARGET_KERNEL_SOURCE := kernel/redmi/sm6250
 endif
 
