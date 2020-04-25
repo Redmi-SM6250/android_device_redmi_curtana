@@ -67,6 +67,10 @@ PRODUCT_PACKAGES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-sdm
+    
+# Offline charging
+PRODUCT_PACKAGES += \
+    charger_res_images
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
