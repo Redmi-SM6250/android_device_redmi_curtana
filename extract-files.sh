@@ -7,8 +7,8 @@
 
 set -e
 
-DEVICE=phoenix
-VENDOR=xiaomi
+DEVICE=curtana
+VENDOR=redmi
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

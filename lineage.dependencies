@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_vendor_redmi_curtana",
+    "target_path": "vendor/redmi/curtana"
+  },
+  {
+    "repository": "android_kernel_redmi_sm7125",
+    "target_path": "kernel/redmi/sm7125"
+  }
+]

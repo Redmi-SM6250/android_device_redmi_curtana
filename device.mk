@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/xiaomi/phoenix/phoenix-vendor.mk)
+$(call inherit-product-if-exists, vendor/redmi/curtana/curtana-vendor.mk)
 
 -include $(LOCAL_PATH)/product_prop.mk
 
@@ -48,13 +48,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Snap
 
-# Device Settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
-
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -69,19 +62,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_phoenix
-
-# NFC
-PRODUCT_PACKAGES += \
-    com.android.nfc_extras \
-    com.gsma.services.nfc \
-    NfcNci \
-    SecureElement \
-    Tag
-
-# Notch style overlay
-PRODUCT_PACKAGES += \
-    NotchNoFillOverlay
+    android.hardware.light@2.0-service.redmi_curtana
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -103,7 +84,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.phoenix
+    android.hardware.power@1.2-service.curtana
 
 # Telephony
 PRODUCT_PACKAGES += \

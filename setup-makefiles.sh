@@ -7,8 +7,8 @@
 
 set -e
 
-DEVICE=phoenix
-VENDOR=xiaomi
+DEVICE=curtana
+VENDOR=redmi
 
 INITIAL_COPYRIGHT_YEAR=2020
 
