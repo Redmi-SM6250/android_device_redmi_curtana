@@ -13,7 +13,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_curtana
 PRODUCT_DEVICE := curtana
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 9S
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.7.0.QJWMIXM:user/release-keys
