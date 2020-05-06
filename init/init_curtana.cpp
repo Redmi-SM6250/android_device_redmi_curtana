@@ -78,14 +78,14 @@ void vendor_load_properties() {
     std::string region;
     region = GetProperty("ro.boot.hwc", "");
 
-    if (region == "GLOBAL") {
+    if (region == "global_two") {
         for (const auto &source : ro_props_default_source_order) {
             set_ro_build_prop(source, "fingerprint",
                                "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
             set_ro_product_prop(source, "model", "Redmi Note 9S");
         }
         property_override("ro.build.description", "curtana-user 10 QKQ1.191215.002 V11.0.7.0.QJWMIXM release-keys");
-    } else if (region == "INDIA") {
+    } else {
         for (const auto &source : ro_props_default_source_order) {
             set_ro_build_prop(source, "fingerprint",
                               "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
