@@ -107,6 +107,9 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.curtana
+    
+# Soong
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -116,12 +119,10 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    telephony-ext \
+    telephony-ext
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Trust
 PRODUCT_PACKAGES += \
