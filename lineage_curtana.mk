@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from curtana device
 $(call inherit-product, device/redmi/curtana/device.mk)
 
 # Inherit some common LineageOS stuff.
@@ -14,5 +15,10 @@ PRODUCT_NAME := lineage_curtana
 PRODUCT_DEVICE := curtana
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Build info
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE=curtana \
+    PRODUCT_NAME=curtana
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
