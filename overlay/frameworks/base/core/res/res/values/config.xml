@@ -248,7 +248,7 @@
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
-     <bool name="skip_restoring_network_selection">false</bool>
+     <bool name="skip_restoring_network_selection">true</bool>
 
     <!-- Height of the status bar -->
      <dimen name="status_bar_height_portrait">24.0dip</dimen>
