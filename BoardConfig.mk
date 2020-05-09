@@ -91,7 +91,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := vendor/atoll-perf_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
-  TARGET_KERNEL_SOURCE := kernel/redmi/sm7125
+  TARGET_KERNEL_SOURCE := kernel/redmi/sm6250
 endif
 
 # Platform
