@@ -4,7 +4,7 @@
     "target_path": "vendor/redmi/curtana"
   },
   {
-    "repository": "android_kernel_redmi_sm7125",
-    "target_path": "kernel/redmi/sm7125"
+    "repository": "android_kernel_redmi_sm6250",
+    "target_path": "kernel/redmi/sm6250"
   }
 ]
