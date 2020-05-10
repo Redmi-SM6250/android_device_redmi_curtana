@@ -74,14 +74,10 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.redmi_curtana
-    
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_profiles_vendor.xml
-    
-# Offline charging
-PRODUCT_PACKAGES += \
-    charger_res_images
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
