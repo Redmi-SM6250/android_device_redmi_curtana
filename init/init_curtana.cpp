@@ -40,6 +40,11 @@ void load_curtanaglobal() {
     property_override("ro.product.system.model", "Redmi Note 9S");
     property_override("ro.build.description", "curtana_global-user 10 QKQ1.191215.002 V11.0.7.0.QJWMIXM release-keys");
     property_override("ro.build.fingerprint", "Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.7.0.QJWMIXM:user/release-keys");
+    
+     // Maintainer props
+    property_override("org.evolution.build_donate_url", "https://paypal.me/darvycana");
+    property_override("org.evolution.build_maintainer", "Lewis Shqipe");
+    property_override("org.evolution.build_support_url", "https://t.me/EvolutionXCortana");
 }
 
 void load_curtana() {
@@ -48,6 +53,11 @@ void load_curtana() {
     property_override("ro.product.system.model", "Redmi Note 9 Pro");
     property_override("ro.build.description", "curtana-user 10 QKQ1.191215.002 V11.0.6.0.QJWINXM release-keys");
     property_override("ro.build.fingerprint", "Redmi/curtana/curtana:10/QKQ1.191215.002/V11.0.6.0.QJWINXM:user/release-keys");
+     
+     // Maintainer props
+    property_override("org.evolution.build_donate_url", "https://paypal.me/darvycana");
+    property_override("org.evolution.build_maintainer", "Lewis Shqipe");
+    property_override("org.evolution.build_support_url", "https://t.me/EvolutionXCortana");
 }
 
 void vendor_load_properties() {
@@ -59,3 +69,4 @@ void vendor_load_properties() {
         load_curtana();
     }
 }
+
