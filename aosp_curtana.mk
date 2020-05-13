@@ -22,7 +22,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_curtana
 PRODUCT_DEVICE := curtana
-PRODUCT_BRAND := xiaomi
+PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Build info
