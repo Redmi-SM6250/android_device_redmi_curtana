@@ -53,7 +53,7 @@ void load_curtana() {
 void vendor_load_properties() {
     std::string region = android::base::GetProperty("ro.boot.hwc", "");
 
-    if (region.find("global_two") != std::string::npos) {
+    if (region.find("Global_TWO") != std::string::npos) {
         load_curtanaglobal();
     } else {
         load_curtana();
