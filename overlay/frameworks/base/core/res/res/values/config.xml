@@ -144,7 +144,7 @@
      <dimen name="status_bar_height_portrait">24.0dip</dimen>
      
     <!-- Whether device has a notch -->	
-    <bool name="config_haveNotch">true</bool>
+    <bool name="config_haveNotch">false</bool>
     
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
