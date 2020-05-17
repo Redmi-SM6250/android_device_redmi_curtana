@@ -49,6 +49,6 @@
 system                                                                /system                 ext4    ro,barrier=1,discard                                                                            wait,logical,first_stage_mount,avb=vbmeta_system,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
 product                                                               /product                ext4    ro,barrier=1,discard                                                                            wait,logical,first_stage_mount,avb=vbmeta_system
 vendor                                                                /vendor                 ext4    ro,barrier=1,discard                                                                            wait,logical,first_stage_mount,avb
-/dev/block/bootdeviceby-name/boot                                     /boot                   emmc    defaults                                                                                        defaults
+/dev/block/bootdevice/by-name/boot                                     /boot                   emmc    defaults                                                                                        defaults
 
 /devices/platform/soc/a600000.ssusb/a600000.dwc3/xhci-hcd.0.auto*     /storage/usbotg         vfat    nosuid,nodev                                                                                    wait,voldmanaged=usbotg:auto
