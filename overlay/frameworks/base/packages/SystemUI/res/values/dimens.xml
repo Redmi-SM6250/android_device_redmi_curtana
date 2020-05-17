@@ -28,7 +28,4 @@
     <dimen name="statusbar_padding_end">17.869995px</dimen>
     <!-- the padding of the corner content -->
     <dimen name="rounded_corner_content_padding">7.0dip</dimen>
-    <!-- The notch size -->
-    <dimen name="notch_height">100.0px</dimen>
-    <dimen name="notch_width">72.0px</dimen>
 </resources> 
