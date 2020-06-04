@@ -23,7 +23,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.bt.aac_frm_ctl.enabled=true  \
     persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive  \
     persist.vendor.qcom.bluetooth.enable.splita2dp=true  \
-    ro.bluetooth.a2dp_offload.supported=true
+    ro.bluetooth.a2dp_offload.supported=true  \
+    persist.sys.phh.disable_a2dp_offload=true  \
+    persist.bluetooth.bluetooth_audio_hal.disabled=true
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
