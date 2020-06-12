@@ -38,9 +38,9 @@ void load_curtanaglobal() {
     property_override("ro.product.model", "Note 9S");
     property_override("ro.product.product.model", "Note 9S");
     property_override("ro.product.system.model", "Note 9S");
-    property_override("ro.build.description", "curtana_global-user 10 QKQ1.191215.002 V11.0.7.0.QJWMIXM release-keys");
-    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
+    property_override("ro.build.description", "curtana_global-user 10 QKQ1.191215.002 V11.0.8.0.QJWMIXM release-keys");
+    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
     property_override("ro.product.mod_device", "curtana_global");
 }
 
@@ -48,9 +48,9 @@ void load_curtana() {
     property_override("ro.product.model", "Note 9 Pro");
     property_override("ro.product.product.model", "Note 9 Pro");
     property_override("ro.product.system.model", "Note 9 Pro");
-    property_override("ro.build.description", "curtana-user 10 QKQ1.191215.002 V11.0.6.0.QJWINXM release-keys");
-    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
+    property_override("ro.build.description", "curtana-user 10 QKQ1.191215.002 V11.0.7.0.QJWINXM release-keys");
+    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
     property_override("ro.product.mod_device", "curtana_in_global");
 }
 
