@@ -1,0 +1,13 @@
+[
+  { "remote": "github",
+    "repository": "redmi-sm6250/android_vendor_redmi_curtana",
+    "target_path": "vendor/redmi/curtana", 
+    "branch": "lineage-17.1"
+  },
+  {
+    "remote": "github",
+    "repository": "ctwoon/msm-4.14",
+    "target_path": "kernel/redmi/sm6250",
+    "branch": "stable"
+  }
+]
