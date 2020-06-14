@@ -1,5 +1,9 @@
 [
   {
+    "repository": "msm-4.14",
+    "target_path": "kernel/redmi/sm6250"
+  },
+  {
     "repository": "android_vendor_redmi_curtana",
     "target_path": "vendor/redmi/curtana"
   }
