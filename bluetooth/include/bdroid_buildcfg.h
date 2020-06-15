@@ -35,7 +35,7 @@ typedef struct {
 } device_t;
 
 static const device_t devices[] = {
-    {"curtana", "Global_Two", "Redmi Note 9S"},
+    {"curtana", "Global_TWO", "Redmi Note 9S"},
     {"curtana", "India", "Redmi Note 9 Pro"},
 };
 
