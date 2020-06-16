@@ -20,6 +20,4 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_curtana
 TARGET_RECOVERY_DEVICE_MODULES := libinit_curtana
 
 # Kernel
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := vendor/curtana-inline_defconfig
-endif
+TARGET_KERNEL_CONFIG := vendor/curtana_defconfig
