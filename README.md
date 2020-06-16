@@ -3,7 +3,7 @@ Copyright (C) 2020 The LineageOS Project
 Device configuration for the Redmi Note 9S / 9 Pro (India)
 ============================================
 
-The Redmi Note 9S / 9 Pro (India) (codenamed _"curtana"_) is a mid range smartphone from Xiaomi's sub-brand Redmi.
+The Redmi Note 9S / 9 Pro India (codenamed _"curtana"_) is a mid range smartphone from Xiaomi's sub-brand Redmi.
 
 It was announced in March 2020 and released in April 2020.
 
