@@ -63,3 +63,8 @@ product/framework/QtiTelephonyServicelibrary.jar
 
 # Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
 product/framework/qti-telephony-common.jar|74adbf98e89531ac385ab5c4cea3c2549a0d24b0
+
+# Dirac
+vendor/etc/diracmobile.config
+lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so
+lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so

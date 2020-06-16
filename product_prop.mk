@@ -124,4 +124,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+    
+ # Dirac
+persist.dirac.acs.controller=qem \
+persist.dirac.acs.storeSettings=1 \
+persist.dirac.acs.ignore_error=1 \
+ro.audio.soundfx.dirac=true \
+persist.audio.dirac.speaker=true
 
