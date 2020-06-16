@@ -108,6 +108,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     vendor.display.enable_optimize_refresh=1 \
     vendor.gralloc.disable_ubwc=0
 
+# Enable EGL image tracking on SF for b/137514000
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.enable_egl_image_tracker=1
+
 # Memory
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.qti.sys.fw.bservice_enable=true
