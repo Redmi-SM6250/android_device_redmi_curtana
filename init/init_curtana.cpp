@@ -42,11 +42,7 @@ void load_curtanaglobal() {
     property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
     property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
     property_override("ro.product.mod_device", "curtana_global");
-    
-     // Maintainer props
-    property_override("org.evolution.build_donate_url", "https://paypal.me/darvycana");
-    property_override("org.evolution.build_maintainer", "Lewis Shqipe");
-    property_override("org.evolution.build_support_url", "https://t.me/EvolutionXCortana");
+
 }
 
 void load_curtana() {
@@ -57,11 +53,7 @@ void load_curtana() {
     property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
     property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
     property_override("ro.product.mod_device", "curtana_in_global");
-     
-     // Maintainer props
-    property_override("org.evolution.build_donate_url", "https://paypal.me/darvycana");
-    property_override("org.evolution.build_maintainer", "Lewis Shqipe");
-    property_override("org.evolution.build_support_url", "https://t.me/EvolutionXCortana");
+    
 }
 
 void vendor_load_properties() {

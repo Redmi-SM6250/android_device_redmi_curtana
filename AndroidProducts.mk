@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_curtana.mk
+    $(LOCAL_DIR)/bootleg_curtana.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_curtana-user \
-    aosp_curtana-userdebug \
-    aosp_curtana-eng
+    bootleg_curtana-user \
+    bootleg_curtana-userdebug \
+    bootleg_curtana-eng
