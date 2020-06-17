@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap
+    
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # fastbootd
 PRODUCT_PACKAGES += \
