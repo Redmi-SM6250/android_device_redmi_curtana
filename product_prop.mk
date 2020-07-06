@@ -17,6 +17,7 @@ ro.apex.updatable=true
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
+    ro.bluetooth.library_name=libbluetooth.so
     persist.bluetooth.bqr.event_mask=14  \
     persist.bluetooth.bqr.min_interval_ms=500  \
     vendor.bluetooth.soc=cherokee  \
