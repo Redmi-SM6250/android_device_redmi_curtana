@@ -138,3 +138,9 @@ persist.dirac.acs.ignore_error=1 \
 ro.audio.soundfx.dirac=true \
 persist.audio.dirac.speaker=true
 
+#lmkd
+ro.lmk.use_psi=true
+ro.lmk.low_ram=false
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
