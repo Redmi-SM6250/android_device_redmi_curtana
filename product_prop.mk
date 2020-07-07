@@ -17,6 +17,7 @@ ro.apex.updatable=true
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
+    ro.bluetooth.library_name=libbluetooth.so  \
     persist.bluetooth.bqr.event_mask=14  \
     persist.bluetooth.bqr.min_interval_ms=500  \
     vendor.bluetooth.soc=cherokee  \
@@ -111,7 +112,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.qti.sys.fw.bservice_enable=true
     
 # Netflix
-ro.netflix.bsp_rev=Q6250-19132-1
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.netflix.bsp_rev=Q6250-19132-1
 
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -132,3 +134,10 @@ persist.dirac.acs.ignore_error=1 \
 ro.audio.soundfx.dirac=true \
 persist.audio.dirac.speaker=true
 
+#lmkd
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.lmk.use_psi=true  \
+    ro.lmk.low_ram=false  \
+    ro.lmk.kill_heaviest_task=true  \
+    ro.lmk.kill_timeout_ms=100  \
+    ro.lmk.use_minfree_levels=true
