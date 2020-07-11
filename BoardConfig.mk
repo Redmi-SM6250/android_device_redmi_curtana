@@ -177,3 +177,5 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 -include vendor/redmi/curtana/BoardConfigVendor.mk
+
+BUILD_BROKEN_USES_NETWORK := true
