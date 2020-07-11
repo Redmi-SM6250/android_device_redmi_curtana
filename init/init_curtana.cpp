@@ -38,9 +38,9 @@ void load_curtanaglobal() {
     property_override("ro.product.model", "Note 9S");
     property_override("ro.product.product.model", "Note 9S");
     property_override("ro.product.system.model", "Note 9S");
-    property_override("ro.build.description", "curtana_global-user 10 QKQ1.191215.002 V11.0.8.0.QJWMIXM release-keys");
-    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
+    property_override("ro.build.description", "curtana_global-user 10 QKQ1.191215.002 V11.0.9.0.QJWMIXM release-keys");
+    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
     property_override("ro.product.mod_device", "curtana_global");
     
      // Maintainer props
@@ -54,14 +54,9 @@ void load_curtana() {
     property_override("ro.product.product.model", "Note 9 Pro");
     property_override("ro.product.system.model", "Note 9 Pro");
     property_override("ro.build.description", "curtana-user 10 QKQ1.191215.002 V11.0.7.0.QJWINXM release-keys");
-    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
+    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
     property_override("ro.product.mod_device", "curtana_in_global");
-     
-     // Maintainer props
-    property_override("org.evolution.build_donate_url", "https://paypal.me/darvycana");
-    property_override("org.evolution.build_maintainer", "Lewis Shqipe");
-    property_override("org.evolution.build_support_url", "https://t.me/EvolutionXCortana");
 }
 
 void vendor_load_properties() {
